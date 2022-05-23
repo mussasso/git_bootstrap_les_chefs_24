@@ -1,3 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body header {
+  background: rgba(0, 0, 0, 0.9) url("../images/banner1.jpg");
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-image: url(../images/bottom_decoration_img.png) 0 0 30 0 round;
+  border-bottom: 15px solid transparent;
+}
+body header nav {
+  color: #ffffff;
+}
+body header nav .nav-left {
+  align-self: center;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+body header nav .nav-left ul {
+  gap: 3rem;
+  margin: 0;
+  padding: 0;
+}
+body header nav .nav-left ul li {
+  list-style: none;
+  text-transform: uppercase;
+  padding: 10px;
+}
+body header nav .nav-left ul li:hover {
+  background-color: red;
+}
+body header nav .nav-img {
+  align-self: center;
+}
+body header nav .nav-right {
+  align-self: center;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+body header nav .nav-right ul {
+  gap: 3rem;
+  margin: 0;
+  padding: 0;
+}
+body header nav .nav-right ul li {
+  list-style: none;
+  text-transform: uppercase;
+  padding: 10px;
+}
+body header nav .nav-right ul li:hover {
+  background-color: red;
+}
+body header .carousel {
+  height: 100vh;
+}
+body header .carousel .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+body header .carousel .carousel-indicators button.active {
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  border: 1.5px solid white;
+  margin: 1px;
+  background-clip: content-box;
+  padding: 0.2rem;
+  margin-top: 8px;
+}
+body header .carousel .carousel-inner {
+  top: 30%;
+  opacity: 1;
+  color: #ffffff;
+}
+body header .carousel .carousel-inner span {
+  font-size: 54px;
+}
+body header .carousel .carousel-inner span:nth-of-type(2) {
+  color: red;
+}
+body header .carousel .carousel-inner .btn {
+  width: 60vw;
+}
+body header .carousel .carousel-inner .btn button {
+  border-radius: 20px;
+  line-height: 2.5;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+body header .carousel .carousel-inner .btn button:nth-of-type(2) {
+  background-color: red;
+}
+body .s1 {
+  background-image: url(../);
+}
 
 /*# sourceMappingURL=style.css.map */
