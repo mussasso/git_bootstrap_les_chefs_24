@@ -31,7 +31,7 @@ body header nav .nav-left ul li {
   padding: 10px;
 }
 body header nav .nav-left ul li:hover {
-  background-color: red;
+  background-color: #C42D40;
 }
 body header nav .nav-img {
   align-self: center;
@@ -52,7 +52,7 @@ body header nav .nav-right ul li {
   padding: 10px;
 }
 body header nav .nav-right ul li:hover {
-  background-color: red;
+  background-color: #C42D40;
 }
 body header .carousel {
   height: 100vh;
@@ -81,7 +81,7 @@ body header .carousel .carousel-inner span {
   font-size: 54px;
 }
 body header .carousel .carousel-inner span:nth-of-type(2) {
-  color: red;
+  color: #C42D40;
 }
 body header .carousel .carousel-inner .btn {
   width: 60vw;
@@ -95,7 +95,7 @@ body header .carousel .carousel-inner .btn button {
   cursor: pointer;
 }
 body header .carousel .carousel-inner .btn button:nth-of-type(2) {
-  background-color: red;
+  background-color: #C42D40;
 }
 body .s1 {
   background-image: url(../images/main_bg.jpg);
@@ -107,13 +107,24 @@ body .s1 .container {
 }
 body .s1 .container h1 span {
   font-size: 60px;
+  color: #C42D40;
 }
 body .s2 {
   background-image: url(../images/team_background.jpg);
   color: white;
 }
+body .s2 h3 {
+  font-size: 2.5em;
+}
+body .s2 h3 span {
+  font-size: 3.5rem;
+  color: #C42D40;
+}
 body .s3 {
   background-image: url(../images/main_bg.jpg);
+}
+body .s3 .container {
+  background-color: white;
 }
 body .s3 .container .row h2 {
   font-size: 2em;
@@ -122,24 +133,48 @@ body .s3 .container .row h2 span {
   color: #C42D40;
   font-size: 1.5em;
 }
-body .s3 .container .container {
+body .s3 .container .row .container {
   background-image: url(../images/book_table_bg.jpg);
   background-position: center;
+  color: #ffffff;
+  border-radius: 20px;
 }
-body .s3 .container .container .em input {
+body .s3 .container .row .container h2 span {
+  font-weight: bold;
+}
+body .s3 .container .row .container .em input {
   border-radius: 10px;
   line-height: 2.5;
   margin: 10px;
 }
-body .s3 .container .container button {
+body .s3 .container .row .container button {
   background-color: #C42D40;
   color: #ffffff;
   border-radius: 20px;
   border: none;
   line-height: 2.7;
 }
-body .s3 .container:nth-child(2) {
-  background-color: red;
+body .s3 .container .container {
+  background-color: white;
+}
+body .s3 .container .container .row .card2 img {
+  border-radius: 1rem;
+  border: 5px solid lightgray;
+  outline: 1px solid white;
+}
+body .s3 .container .container .row .card2 button {
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #C42D40;
+  transform: translateY(-150px, 0);
+}
+body .s3 .container .container .row .card2 h2 {
+  text-align: start;
+  font-size: 1.5rem;
+}
+body .s3 .container .container .row .card2 p {
+  text-align: start;
 }
 body .s4 {
   background-image: url(../images/testimonials_background.jpg);
@@ -155,9 +190,34 @@ body .s4 .row h2 span {
   font-size: 3.5rem;
   color: #C42D40;
 }
+body .s4 .row #img5 {
+  border: none;
+}
 body .s4 .row img {
   border-radius: 50%;
   border: 3px solid lightgray;
+}
+body .s4 .row div {
+  gap: 1.5em;
+}
+body .s4 .row div div {
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+}
+body .s5 {
+  background-image: url(../images/main_bg.jpg);
+}
+body .s5 .container {
+  background-color: #C42D40;
+  border-radius: 20px;
+  color: white;
+}
+body .s5 .container i {
+  font-size: 2rem;
+  padding: 2vh 0;
+}
+body footer {
+  background-image: url(../images/footer_background.jpg);
 }
 
 /*# sourceMappingURL=style.css.map */
