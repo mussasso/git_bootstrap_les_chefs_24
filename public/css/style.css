@@ -103,11 +103,56 @@ body .s1 {
 }
 body .s1 .container {
   background-color: #ffffff;
-  background-image: url(../images/);
+  background-image: url(../images/box-left-top.png), url(../images/box-right-top.png), url(../images/box-bottom-left.png), url(../images/box-bottom_right.png);
+  background-position: top left, top right, bottom left, bottom right;
+  background-repeat: no-repeat;
 }
-body .s1 .container h1 span {
+body .s1 .container .story h1 span {
   font-size: 60px;
   color: #C42D40;
+}
+body .s1 .container .row .lg .list-group {
+  text-align: center;
+  align-self: center;
+}
+body .s1 .container .row .lg .list-group .list-group-item {
+  font-size: 3rem;
+  padding: 2rem;
+  background-color: #ffffff;
+  outline-color: #C42D40;
+}
+body .s1 .container .row .lg .list-group .list-group-item i {
+  color: gray;
+}
+body .s1 .container .row .lg .list-group .list-group-item i:hover {
+  color: #C42D40;
+  border-color: #C42D40;
+  border-bottom: 2px solid #C42D40;
+}
+body .s1 .container .row .lg .list-group .list-group-item:hover {
+  color: #C42D40;
+  border-color: #C42D40;
+  border-right: 4px solid #C42D40;
+}
+body .s1 .container .row .crd .row {
+  gap: 1rem;
+}
+body .s1 .container .row .crd .row img {
+  border-radius: 50%;
+  border: 3px solid lightgray;
+  align-self: center;
+}
+body .s1 .container .row .crd .row div {
+  margin: 0.5rem 1rem;
+  align-self: center;
+}
+body .s1 .container .row .crd .row button {
+  background-color: #EFEFEF;
+  color: #C42D40;
+  font-weight: 500;
+  height: 30px;
+  align-self: center;
+  border: none;
 }
 body .s2 {
   background-image: url(../images/team_background.jpg);
@@ -123,65 +168,69 @@ body .s2 h3 span {
 body .s3 {
   background-image: url(../images/main_bg.jpg);
 }
-body .s3 .container {
+body .s3 .c-principal {
   background-color: white;
+  background-image: url(../images/box-left-top-grey.png), url(../images/box-right-top-grey.png), url(../images/box-bottom-left-grey.png), url(../images/box-bottom_right-grey.png);
+  background-position: top left, top right, bottom left, bottom right;
+  background-repeat: no-repeat;
 }
-body .s3 .container .row h2 {
+body .s3 .c-principal .row h2 {
   font-size: 2em;
 }
-body .s3 .container .row h2 span {
+body .s3 .c-principal .row h2 span {
   color: #C42D40;
   font-size: 1.5em;
 }
-body .s3 .container .row .container {
+body .s3 .c-principal .row .container {
   background-image: url(../images/book_table_bg.jpg);
   background-position: center;
   color: #ffffff;
   border-radius: 20px;
 }
-body .s3 .container .row .container h2 span {
-  font-weight: bold;
+body .s3 .c-principal .row .container h2 span {
+  font-weight: bolder;
 }
-body .s3 .container .row .container .em input {
+body .s3 .c-principal .row .container .em input {
   border-radius: 10px;
   line-height: 2.5;
   margin: 10px;
 }
-body .s3 .container .row .container button {
+body .s3 .c-principal .row .container button {
   background-color: #C42D40;
   color: #ffffff;
   border-radius: 20px;
   border: none;
   line-height: 2.7;
 }
-body .s3 .container .container {
+body .s3 .c-principal .container {
   background-color: white;
 }
-body .s3 .container .container .row .card2 img {
+body .s3 .c-principal .container .row .card2 img {
   border-radius: 1rem;
   border: 5px solid lightgray;
   outline: 1px solid white;
 }
-body .s3 .container .container .row .card2 button {
-  padding: 20px;
+body .s3 .c-principal .container .row .card2 button {
+  padding: 20px 0;
   border-radius: 20px;
   border: none;
   background-color: #C42D40;
   transform: translateY(-150px, 0);
 }
-body .s3 .container .container .row .card2 h2 {
+body .s3 .c-principal .container .row .card2 h2 {
   text-align: start;
   font-size: 1.5rem;
 }
-body .s3 .container .container .row .card2 p {
+body .s3 .c-principal .container .row .card2 p {
   text-align: start;
 }
-body .s3 .container .row button {
+body .s3 .c-principal .row button {
   background-color: #C42D40;
   border: none;
   border-radius: 20px;
   line-height: 2.5;
   color: #ffffff;
+  transform: translateY(-25px);
 }
 body .s4 {
   background-image: url(../images/testimonials_background.jpg);
@@ -232,6 +281,8 @@ body .s5 .container i {
 body footer {
   background-image: url(../images/footer_background.jpg);
   color: #ffffff;
+  border-image: url(../images/footer_bottom_decoration_img.png) 30 0 0 0 round;
+  border-top: 15px solid transparent;
 }
 body footer .row div button {
   background-color: #C42D40;
@@ -240,6 +291,11 @@ body footer .row div button {
   padding: 2px 20px;
   margin: 3px;
   border: 0.1px solid #ffffff;
+}
+body footer .zen {
+  background-color: #C42D40;
+  border: none;
+  height: 10vh;
 }
 
 /*# sourceMappingURL=style.css.map */

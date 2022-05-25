@@ -102,11 +102,61 @@ body
         padding-top: 80px 
         .container
             background-color: #ffffff
-            background-image: url(../images/)
-            h1
-                span
-                    font-size: 60px 
-                    color: #C42D40
+            background-image: url(../images/box-left-top.png), url(../images/box-right-top.png), url(../images/box-bottom-left.png), url(../images/box-bottom_right.png)
+            background-position: top left, top right, bottom left, bottom right
+            background-repeat: no-repeat
+            .story
+                h1
+                    span
+                        font-size: 60px 
+                        color: #C42D40
+               
+            .row
+                .lg
+                    .list-group
+                        text-align: center
+                        align-self: center
+                        
+                         
+                        .list-group-item
+                            font-size: 3rem
+                            padding: 2rem 
+                            background-color: #ffffff
+                            outline-color:  #C42D40 
+                            i
+                                color: gray
+                                &:hover
+                                    color: #C42D40
+                                    border-color: #C42D40
+                                    border-bottom: 2px solid #C42D40
+                            &:hover
+                                color: #C42D40
+                                border-color: #C42D40
+                                border-right: 4px solid #C42D40
+                        
+
+                .crd
+                    .row
+                        gap: 1rem
+                        img
+                            border-radius: 50%
+                            border: 3px solid lightgray
+                            align-self: center
+
+
+                        div
+                            margin: 0.5rem 1rem
+                            align-self: center
+
+
+                        button
+                            background-color: #EFEFEF
+                            color: #C42D40
+                            font-weight: 500
+                            height: 30px
+                            align-self: center
+                            border: none    
+
 
                             
     .s2
@@ -121,8 +171,11 @@ body
 
     .s3
         background-image: url(../images/main_bg.jpg)
-        .container
+        .c-principal
             background-color: white
+            background-image: url(../images/box-left-top-grey.png), url(../images/box-right-top-grey.png), url(../images/box-bottom-left-grey.png), url(../images/box-bottom_right-grey.png)
+            background-position: top left, top right, bottom left, bottom right
+            background-repeat: no-repeat
 
             .row
                 h2
@@ -139,7 +192,7 @@ body
                     border-radius: 20px
                     h2
                         span
-                            font-weight: bold
+                            font-weight: bolder
     
                     .em
                         
@@ -163,7 +216,7 @@ body
                             border: 5px solid lightgray
                             outline: 1px solid white
                         button
-                            padding: 20px
+                            padding: 20px 0
                             border-radius: 20px
                             border: none
                             background-color: #C42D40
@@ -172,7 +225,7 @@ body
                             text-align: start
                             font-size: 1.5rem
                         p
-                            text-align: start
+                            text-align: start   
             .row
                 button
                     background-color: #C42D40
@@ -180,6 +233,7 @@ body
                     border-radius: 20px
                     line-height: 2.5
                     color: #ffffff
+                    transform: translateY(-25px)
 
 
                 
@@ -233,6 +287,8 @@ body
     footer
         background-image: url(../images/footer_background.jpg)
         color: #ffffff
+        border-image: url(../images/footer_bottom_decoration_img.png) 30 0 0 0 round
+        border-top: 15px solid transparent
         .row
             div
                 .icon
@@ -246,4 +302,10 @@ body
                     padding: 2px 20px
                     margin: 3px
                     border: 0.1px solid #ffffff
+        .zen
+            background-color: #C42D40
+            border: none
+            height: 10vh
+
+        
                     
