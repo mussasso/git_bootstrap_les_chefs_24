@@ -176,6 +176,13 @@ body .s3 .container .container .row .card2 h2 {
 body .s3 .container .container .row .card2 p {
   text-align: start;
 }
+body .s3 .container .row button {
+  background-color: #C42D40;
+  border: none;
+  border-radius: 20px;
+  line-height: 2.5;
+  color: #ffffff;
+}
 body .s4 {
   background-image: url(../images/testimonials_background.jpg);
 }
@@ -193,9 +200,15 @@ body .s4 .row h2 span {
 body .s4 .row #img5 {
   border: none;
 }
-body .s4 .row img {
+body .s4 .row div img {
   border-radius: 50%;
   border: 3px solid lightgray;
+}
+body .s4 .row div div span {
+  color: #C42D40;
+}
+body .s4 .row div div p {
+  color: #ffffff;
 }
 body .s4 .row div {
   gap: 1.5em;
@@ -218,6 +231,15 @@ body .s5 .container i {
 }
 body footer {
   background-image: url(../images/footer_background.jpg);
+  color: #ffffff;
+}
+body footer .row div button {
+  background-color: #C42D40;
+  line-height: 2.5;
+  border-radius: 30px;
+  padding: 2px 20px;
+  margin: 3px;
+  border: 0.1px solid #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */
